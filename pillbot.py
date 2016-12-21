@@ -38,6 +38,7 @@ def handle_messages():
 def processIncoming(user_id, message):
     if message['type'] == 'text':
         message_text = message['data']
+        print message_text
         return message_text
 
     elif message['type'] == 'location':
