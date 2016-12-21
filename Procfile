@@ -1,1 +1,1 @@
-web: gunicorn phil:app
+web: gunicorn phil-the-pillbot:app
