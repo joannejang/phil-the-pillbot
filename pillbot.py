@@ -3,7 +3,7 @@ from flask import Flask, request
 
 application = Flask(__name__)
 app = application
-PAT = 'EAACQgLdyLrIBAHiCim24nxoJ1b3yaOupGh3NE7SlXcJcqlZCsPaTFq11hahcMw0Gj1YzNpDQvOovqtrJ6gxhXWx9xwG56h6wigZBOZAL4qt4ZC7EkNcsKYmWglCaafOvJyXXUaxvhMfn9V9N4A8zWpF2ldSJqbAsKQbMmKJksgZDZD'
+PAT = 'EAACQgLdyLrIBAFOJfUD1sjr6BSYFYkZA8Fec56TwXZAcw8d4sCuqgVqyetcM2Fyy1tKZCd8GVjjQqTcqlNlI2GesXKtfH0VKC5MaTSW6iZAJ7f5l9OthOnWFniguJstyJtIl09RgwJL5wBNTcUOh8NaLUdoRcCWZCN0fUENXJPwZDZD'
 
 @app.route('/', methods=['GET'])
 def handle_verification():
